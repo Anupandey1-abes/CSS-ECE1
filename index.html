@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-top: 40px;
+            text-decoration: underline;
+        }
+
+        /* Outer black border box */
+        .outer-box {
+            border: 3px solid black;    /* border */
+            background-color: white;
+            display: inline-block;
+            margin-top: 40px;          /* margin */
+            padding: 20px;             /* padding */
+        }
+
+        /* Inner blue-bordered yellow box */
+        .inner-box {
+            background-color: yellow;
+            border: 15px solid blue;   /* border */
+            padding: 40px;             /* padding */
+            margin: 30px;              /* margin */
+            width: 350px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Box Model</h1>
+
+    <div class="outer-box">
+        <div class="inner-box">
+            ABES Engg College Ghaziabad
+        </div>
+    </div>
+
+</body>
+</html>
