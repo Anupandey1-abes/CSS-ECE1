@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;   /* space evenly */
+  align-items: center;              /* vertical center */
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  margin: 10px;
+}
